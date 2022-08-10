@@ -1,0 +1,36 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+.itcss__wrapper{
+    height: 100%;
+}
+
+.itcss__items {
+    height: 100%;
+}
+
+.itcss__item {
+    display: flex;
+}
+
+.itcss__item img {
+    margin: 0 auto;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.slider__title {
+    position: absolute;
+    text-transform: uppercase;
+    top: 20px;
+    left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.slider__description {
+    position: absolute;
+    bottom: 40px;
+    left: 20px;
+}
