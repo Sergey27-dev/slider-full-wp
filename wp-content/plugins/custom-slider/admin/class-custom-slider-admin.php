@@ -97,7 +97,7 @@ class Custom_Slider_Admin {
 
     public function true_image_uploader_field( $args ) {
         $value = $args[ 'value' ];
-        $default = '/wp-content/plugins/custom-slider/admin/placeholder.png/placeholder.png';
+        $default = '/wp-content/plugins/custom-slider/admin/placeholder.png';
 
         if( $value && ( $image_attributes = wp_get_attachment_image_src( $value, array( 150, 110 ) ) ) ) {
             $src = $image_attributes[0];
